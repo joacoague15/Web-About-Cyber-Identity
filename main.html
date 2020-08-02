@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Link of CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- Font Cyber -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <title>Cyber Identity</title>
+
+  <!-- Script For New Identity -->
+  <script src="newIdentity.js"></script>
+
+</head>
+
+<body class="mainBody">
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- For Navigation -->
+  <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" href="main.html">HOME</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="aboutUs.html">ABOUT US</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="workWithUs.html">WORK WITH US</a>
+  </li>
+</ul>
+
+<div class="container">
+  <p class="neon">Welcome to our program of orientation. We are here to "reset" your life and discover your real identity. Ready to start?</p>
+</div>
+
+<!-- Buttons for Login -->
+<div class="container text-center">
+  <a href="login.html"><button type="button" class="btn btn-primary">Login</button></a>
+  <a href="suscribe.html"><button type="button" class="btn btn-secondary">Suscribe</button></a>
+</div>
+
+<!-- Change Identity -->
+<div class="container newIdentityDiv">
+  <h1 id="newName">Yor New Name</h1>
+  <h1 id="newLastName">Your New Last Name</h1>
+  <button onclick="newId()" id="btn-generator">Generate new Identity</button>
+</div>
+
+<div class="container">
+  <img src="CyberID.svg" id="svgID" alt="identificationSVG">
+</div>
+
+
+</body>
+</html>
